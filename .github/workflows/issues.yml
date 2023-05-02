@@ -1,0 +1,8 @@
+name: Registering issues
+on: issues
+jobs: 
+  issue_event: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Issue created
+        run: echo {{ github }}
