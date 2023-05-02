@@ -1,5 +1,5 @@
 name: "Lint, Test and deploy"
-on: [push, workflow_dispach]
+on: [push, workflow_dispatch]
 jobs: 
   build: 
     runs-on: ubuntu-latest
